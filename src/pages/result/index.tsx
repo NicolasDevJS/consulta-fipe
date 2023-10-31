@@ -6,7 +6,7 @@ import { useRouter } from "next/router"
 
 import { SEO } from "@/components/Tabela"
 
-import { Chip, Wrapper } from "@/styles/Pages/result/styles"
+import { Value, Wrapper } from "@/styles/Pages/result/styles"
 
 import { useFipe } from "@/hooks/useFipe"
 
@@ -44,12 +44,11 @@ export default function FipeResult() {
           Tabela Fipe: Preço {selectedCarSpecification.brand}{" "}
           {selectedCarSpecification.model} {selectedCarSpecification.year}
         </Typography>
+        
+        <Value>
+  {selectedCarSpecification.value}
+</Value>
 
-        <Chip
-          label={selectedCarSpecification.value}
-          variant="filled"
-          color="success"
-        />
 
         <Typography variant="body2">
           Este é o preço de compra do veículo

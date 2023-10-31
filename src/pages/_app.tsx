@@ -1,7 +1,7 @@
 import { ToastContainer } from "react-toastify"
 import { CssBaseline, responsiveFontSizes, ThemeProvider } from "@mui/material"
 
-import type { AppProps } from "next/app"
+import type { AppProps } from "next/app";
 import { Roboto } from "next/font/google"
 
 import { theme } from "@/styles/theme"

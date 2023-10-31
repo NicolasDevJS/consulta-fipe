@@ -1,4 +1,3 @@
-import { Chip as MUIChip } from "@mui/material";
 import styled from "styled-components";
 
 import { theme } from "@/styles/theme";
@@ -14,9 +13,17 @@ export const Wrapper = styled.main`
   flex-direction: column;
   justify-content: center;
   background-color: ${theme.palette.success.light};
+  
 `;
 
-export const Chip = styled(MUIChip)`
+export const Value = styled.div`
   margin: 16px 0;
+  background-color: #7FFFD4; 
+  border-radius: 20px;
+  width: 200px;
+  height: 20px;
+  justify-content: center;
+  color: ;
+  
 `;
 
