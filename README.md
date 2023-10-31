@@ -1,6 +1,6 @@
 # Instale as dependências
-yarn
+# yarn
 
 # Execute o projeto
-yarn run dev
+# yarn run dev
 -
